@@ -12,10 +12,11 @@
  prefix for that particular city.
  This generated file could be used for brute force checking to ensure phone numbers were not used for passwords or WPA2 secrets etc.
 
-## Usage: python PhoneNumGenerator.py 
+## Usage: 
 ```
-	What State? <answer>
-	What City? <answer>
+	> python PhoneNumGenerator.py 
+	> What State? <answer>
+	> What City? <answer>
 ```
 result will write out file with <City>-Num.txt name.
 
