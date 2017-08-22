@@ -21,7 +21,7 @@ GNU GENERAL PUBLIC LICENSE (https://github.com/cjbaccus/PhoneNumGenerator/blob/m
 	> What State? <answer>
 	> What City? <answer>
 ```
-result will write out file with (City)-Num.txt name.
+result will write out file with `<City>-Num.txt` name.
 
  
 
