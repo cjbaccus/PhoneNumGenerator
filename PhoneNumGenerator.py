@@ -11,6 +11,8 @@ from bs4 import BeautifulSoup
 state = raw_input("What state?")
 City = raw_input("What City?")
 
+f = open(City + "-Nums.txt", "w")
+
 # state = "CA"
 # City = "Gilroy"
 lookup = "https://www.area-codes.com/city/city.asp?state="+ state + "&city=" + City
@@ -30,9 +32,12 @@ for link in soup.find_all('a'):
         if (len(num)==6):
             for count in range(1, 9999):
                 Lz = format(count, '04d')
+                f.write(num + Lz + "\n")
                 print(num + Lz)
                 count = + 1
         else:
             pass
     else:
         pass
+
+f.close()
