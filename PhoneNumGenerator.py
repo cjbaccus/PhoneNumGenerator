@@ -34,4 +34,10 @@ soup = BeautifulSoup(data, "lxml")
 for link in soup.find_all('a'):
     full = link.get_text()
     num = re.sub(r'\D', "", full)
-    print(num)
+    if not (num == ""):
+        if (len(num)==6):
+            print(num)
+        else:
+            pass
+    else:
+        pass
