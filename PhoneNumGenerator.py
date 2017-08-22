@@ -46,7 +46,6 @@ for link in soup.find_all('a'):
             for count in range(1, 9999):
                 Lz = format(count, '04d')
                 f.write(num + Lz + "\n")
-                print(num + Lz)
                 count = + 1
         else:
             pass
