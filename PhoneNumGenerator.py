@@ -36,7 +36,10 @@ for link in soup.find_all('a'):
     num = re.sub(r'\D', "", full)
     if not (num == ""):
         if (len(num)==6):
-            print(num)
+            for count in range(1, 9999):
+                Lz = format(count, '04d')
+                print(num + Lz)
+                count = + 1
         else:
             pass
     else:
