@@ -1,10 +1,13 @@
 # PhoneNumGenerator
 
-## Title: PhoneNumGenerator.py
+## Title:
+PhoneNumGenerator.py
 
-## Auther: Carl Baccus
+## Author:
+Carl Baccus
 
-## License: GNU GENERAL PUBLIC LICENSE (https://github.com/cjbaccus/PhoneNumGenerator/blob/master/LICENSE)
+## License:
+GNU GENERAL PUBLIC LICENSE (https://github.com/cjbaccus/PhoneNumGenerator/blob/master/LICENSE)
 
 ## Description and usage:
   This script is intended to be ran on cli.  The purpose is to generate a file named "(City)-Num.txt" that has every phone number
